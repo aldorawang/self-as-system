@@ -5,7 +5,7 @@ body{
 
 iframe{
     width: 100%;
-    height: 5cm;
+    height: 175px;
     border: none;
 }
 
@@ -14,6 +14,11 @@ iframe{
     position: absolute;
     top: 200px;
     left: 600px;
+    
+}
+
+button{
+    background-color: lavenderblush;
 }
 
 .rankhover:hover + .rank{
@@ -42,4 +47,8 @@ iframe{
 
 .mindhover:hover + .mind{
     display: block;
+}
+
+.space{
+    padding-bottom: 75px;
 }
